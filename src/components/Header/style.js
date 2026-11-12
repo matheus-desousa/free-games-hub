@@ -36,7 +36,3 @@ padding-bottom:5px;
             border-bottom: 2px solid #3498db; 
         }
 `
-
-export const Ul = styled.ul`
-
-`

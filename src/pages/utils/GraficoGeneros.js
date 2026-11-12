@@ -12,7 +12,6 @@ import {
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
 
 export default function GraficoGeneros() {
-  // Os dados mapeados da FreeToGame
   const dados = {
     labels: ['MMORPG', 'Shooter', 'Strategy', 'Card Game', 'MOBA', 'Outros'],
     datasets: [
