@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# 🎮 Free Games Hub — Catálogo e Dashboard de Jogos
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Aplicação web front-end desenvolvida em React para exploração de jogos gratuitos via API pública, com paginação progressiva e visualização de métricas com Chart.js.
 
-## Available Scripts
+🔗 **Demonstração Online:** [Acessar Free Games Hub na Vercel](COLE_SEU_LINK_AQUI) *(Deploy em andamento)*
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🎯 Proposta do Projeto
+O **Free Games Hub** foi desenvolvido para consolidar o consumo assíncrono de APIs externas em React, a renderização dinâmica de listas a partir de coleções de objetos e a integração de bibliotecas de visualização de dados na interface.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tecnologias Utilizadas
+* **React.js** (Componentização funcional e gerenciamento de estado)
+* **Chart.js** (Renderização de gráficos na interface)
+* **JavaScript (ES6+)** (Requisições assíncronas com `fetch` e manipulação de arrays)
+* **CSS3** (Estilização e layout responsivo)
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Principais Recursos
+* **Consumo da API Free-To-Play Games:** Listagem dinâmica de títulos gratuitos exibindo os atributos retornados pela API.
+* **Paginação Progressiva ("Carregar Mais"):** Exibição sob demanda dos itens do catálogo para manter a navegação fluida.
+* **Dashboard Visual:** Integração com Chart.js para exibição de indicadores visuais do catálogo.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🗺️ Próximos Passos (Roadmap)
+* Implementar filtro de busca textual por título do jogo.
+* Adicionar sistema de favoritos com persistência local (`localStorage`).
+* Conectar os dados dos gráficos ao cálculo dinâmico em tempo real da resposta da API.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📦 Como Executar o Projeto Localmente
 
-### `npm run eject`
+### Pré-requisitos
+Antes de começar, certifique-se de ter instalado em sua máquina:
+* [Node.js](https://nodejs.org/) (versão 16 ou superior)
+* [Git](https://git-scm.com/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Passo a Passo
+1. Clone o repositório:
+   git clone https://github.com/matheus-desousa/free-games-hub.git
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Acesse o diretório do projeto:
+   cd NOME-DO-REPOSITORIO
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Instale as dependências:
+   npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. Inicie o servidor de desenvolvimento:
+   npm run dev
 
-## Learn More
+> Caso o projeto tenha sido criado sem Vite (via Create React App), utilize `npm start` no passo 4.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### ⚙️ Build para Produção (Opcional)
+Para gerar a versão otimizada de produção:
+npm run build
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Desenvolvido por **Matheus de Sousa** | [LinkedIn](https://www.linkedin.com/in/matheus-de-sousa-227376214/)
