@@ -5,7 +5,6 @@ import { HeaderMod } from "./style";
 import { ImgMod } from "./style";
 import { InputMod } from "./style";
 import { Li } from "./style";
-import { Ul } from "./style";
 
 
 export default function Header(){
