@@ -14,14 +14,14 @@ export default function Header(){
             <Link to="/">
         <ImgMod src={logo}></ImgMod>
         </Link>
-        <Ul>
+        <ul>
             <Link to='/Estatisticas'>
             <Li>Estatísticas do Catálogo</Li>
             </Link>
             <Li>Conta</Li>
             <Li>Configurações</Li>
             
-        </Ul>
+        </ul>
         <InputMod type="text" placeholder="Busque jogo por nome"></InputMod>
         </HeaderMod>
         </>
