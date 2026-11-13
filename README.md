@@ -2,7 +2,7 @@
 
 > Aplicação web front-end desenvolvida em React para exploração de jogos gratuitos via API pública, com paginação progressiva e visualização de métricas com Chart.js.
 
-🔗 **Demonstração Online:** [Acessar Free Games Hub na Vercel](COLE_SEU_LINK_AQUI) *(Deploy em andamento)*
+🔗 **Demonstração Online:** [Acessar Free Games Hub na Vercel](https://free-games-hub-alpha.vercel.app/)
 
 ---
 
